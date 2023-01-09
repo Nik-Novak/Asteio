@@ -12,6 +12,7 @@ import { NoBotTokenError } from "@errors"
 import { Database, ErrorHandler, ImagesUpload, Logger, PluginsManager, WebSocket } from "@services"
 import { initDataTable, resolveDependency } from "@utils/functions"
 import { clientConfig } from "./client"
+import { AI } from './services/AI'
 
 async function run() {
 
@@ -35,6 +36,10 @@ async function run() {
     // init the sqlite database
     const db = await resolveDependency(Database)
     await db.initialize()
+
+    // init the AI client
+    const ai = await resolveDependency(AI)
+    await ai.initialize();
 
     // init the client
     DIService.engine = tsyringeDependencyRegistryEngine.setInjector(container)
@@ -88,3 +93,7 @@ async function run() {
 }
 
 run()
+
+exports = {
+    
+}

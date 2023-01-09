@@ -1,5 +1,5 @@
 /* eslint-disable */
-import type { BaseTranslation } from "../i18n-types"
+import type { BaseTranslation } from '../i18n-types'
 
 const en: BaseTranslation = {
 	GUARDS: {
@@ -61,6 +61,10 @@ const en: BaseTranslation = {
 		PING: {
 			DESCRIPTION: 'Pong!',
 			MESSAGE: '{member:string} Pong! The message round-trip took {time:number}ms.{heartbeat:string}',
+		},
+		JOKE: {
+			DESCRIPTION: 'Tells a joke based on the last {numMsg:number} messages',
+			MESSAGE: '{member:string} {content:string}',
 		},
 	},
 }
