@@ -19,4 +19,6 @@
 </table>
 </div>
 ## 📜 Credits
-    - barthofu for **[TScord](https://github.com/barthofu/tscord)**
+    - barthofu for TScord https://github.com/barthofu/tscord
+    
+
