@@ -8,15 +8,15 @@
   <tr>
     <td align="center">
         
-    </td>
-</tr>
-</table>
-</div>
+
    
 # Who is Asteio
 
 #### **Asteio** is a fully-featured **[discord bot](https://discord.com/developers/docs/intro#bots-and-apps)** intended to provide 
 .
-
+    </td>
+</tr>
+</table>
+</div>
 ## 📜 Credits
     - barthofu for **[TScord](https://github.com/barthofu/tscord)**
